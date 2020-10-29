@@ -8,6 +8,7 @@ try {
   console.log(`Hello ${nameToGreet}!`);
   console.log(`timeZone ${timeZone}!`);
   let time = (new Date()).toLocaleString();
+  
   if ( timeZone == 'UTC' )
   { 
     time = (new Date()).toTimeString();
