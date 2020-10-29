@@ -5,6 +5,10 @@ inputs:
     description: 'Who to greet'
     required: true
     default: 'World'
+  timeZone:  # id of input
+    description: 'Time Zone, local or UTC'
+    required: false
+    default: 'UTC'    
 outputs:
   time: # id of output
     description: 'The time we greeted you'
