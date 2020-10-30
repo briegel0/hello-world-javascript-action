@@ -8,6 +8,10 @@ This action prints "Hello World" or "Hello" + the name of a person to greet to t
 
 **Required** The name of the person to greet. Default `"World"`.
 
+### 'timeZone'
+
+The desired output Time Zone ( 'UTC' or 'Local'). Default '"UTC"'.
+
 ## Outputs
 
 ### `time`
@@ -16,6 +20,6 @@ The time we greeted you.
 
 ## Example usage
 
-uses: actions/hello-world-javascript-action@v1.1
+uses: briegel/hello-world-javascript-action@v2
 with:
   who-to-greet: 'Mona the Octocat'
